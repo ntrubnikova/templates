@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  margin: 0;
+  font-size: 16.5px;
+  font-family: Source Sans Pro;
+  line-height: 1.5em;
+  color: #303030;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 1.2em 1em;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#navbar a:hover {
+  background-color: #efefef;
+}
+
+#navbar a.active {
+  color: #00bcd4;
+  font-weight: 800;
+}
+
+.content {
+  padding: 1.1em;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.content p {
+	margin-bottom: 1.2em;
+}
+
+
+/* Headings */
+
+h1 {
+	font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1.2em;
+}
+
+/* Footer */
+
+.footer {
+  padding: 1.5em;
+  text-align: center;
+  border-top: 1px solid #efefef;
+  
+}
+
+/* Time to Read */
+
+p.timetoread {
+	color: #b8b7b7;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	letter-spacing: 0.035em;
+	margin-top: -2em;
+}
+
+
+/* Source */
+
+.source {
+	font-weight: 800;
+}
