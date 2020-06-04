@@ -5,6 +5,7 @@ body {
   font-size: 16.5px;
   font-family: Source Sans Pro;
   line-height: 1.5em;
+  color: #303030;
 }
 
 /* Header */
@@ -28,10 +29,12 @@ body {
   display: block;
   color: inherit;
   text-align: center;
-  padding: 0.75em 1em;
+  padding: 1.2em 1em;
   text-decoration: none;
-  font-size: 0.95em;
-  letter-spacing: 0.015em;
+  font-size: 0.8em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #navbar a:hover {
@@ -49,7 +52,7 @@ body {
   margin: 0 auto; 
 }
 
-.content p{
+.content p {
 	margin-bottom: 1.2em;
 }
 
@@ -63,6 +66,13 @@ body {
   padding-top: 2.5em;
 }
 
+/* Headings */
+
+h1 {
+	font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1.2em;
+}
 
 /* Footer */
 
