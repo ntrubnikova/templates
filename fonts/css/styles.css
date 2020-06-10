@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100:200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300:400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-size: 16.5px;
+  font-family: Source Sans Pro;
+  line-height: 1.5em;
+  color: #303030;
+}
+
+p {
+	margin: 0 0 1.4em 0;
+}
+
+p, h1 {
+	color: #333;
+}
+
+
+/* Navbar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 1.2em 1em;
+  text-decoration: none;
+  font-family: 'B612 Mono', monospace;
+  font-size: 0.74em;
+  font-weight: 400;
+  letter-spacing: 0.055rem;
+  text-transform: uppercase;
+}
+
+#navbar a:hover {
+  background-color: #efefef;
+}
+
+#navbar a.active {
+  color: #00bcd4;
+  font-weight: 800;
+}
+
+.content{
+	margin: 0 auto;
+}
+
+div.section {
+  padding: 1.1em;
+  margin: 0 auto;  
+  max-width: 800px;
+   
+}
+
+.content p {
+	margin-bottom: 1.2em;
+}
+
+/* Even */
+
+.shaded {
+	background: #f8f9fa;
+}
+
+.italic {
+	font-style: italic;
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 1.5em;
+  text-align: center;
+  border-top: 1px solid #efefef;
+  
+  
+}
+
+/* Example 1 */
+
+#example1 {
+	font: 18px Georgia, Times, "Times New Roman", serif;
+	line-height: 28px;
+}
+
+#example1 h1 {
+
+	font: 36px "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+
+
+/* Example 3 */
+
+#example3 {
+	font-family: Source Sans Pro;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+#example3 h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 32px;
+}
+
+
+/* Example 4 */
+
+#example4 {
+	font-family: 'Asap', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example4 h1 {
+	font-family: 'Asap', sans-serif;
+	font-size: 32px;
+}
+
+
+/* Example 5 */
+
+#example5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example5 h1 {
+	font-family: 'Domine', serif;
+	font-size: 32px;
+}
+
+#example5 p, #example5 li {
+	font-weight: 600;
+}
+
+
+/* Example 6 */
+
+#example6 {
+	font-family: 'Merriweather', serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example6 h1 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+}
+
+
+/* Example 7 */
+
+#example7 {
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+#example7 h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+
+/* Example 8 */
+
+#example8 {
+	font-family: 'Muli', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example8 h1 {
+	font-family: 'Muli', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#example8 p, #example8 li {
+	font-weight: 300;
+	color: #000;
+}
+
+/* Example 9 */
+
+#example9 {
+	font-family: 'Saira', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example9 h1 {
+	font-family: 'Saira', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+#example9 p, #example9 li {
+	font-weight: 300;
+}
+
+
+/* Example 10 */
+
+#example10 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example10 h1 {
+	font-family: 'Halant', serif;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+#example10 p, #example10 li {
+	font-weight: 300;
+	color: #000;
+}
+
+
+/* Example 11 */
+
+#example11 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example11 h1 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+#example11 p, #example11 li {
+	font-weight: 300;
+}
+
+/* Example 12 */
+
+#example12 {
+	font-family: 'Overpass', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example12 h1 {
+	font-family: 'Chivo', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+#example12 p, #example12 li {
+	font-weight: 300;
+}
+
+
+/* Example 13 */
+
+#example13 {
+	font-family: 'Lora', serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example13 h1 {
+	font-family: 'Istok Web', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+/* Example 14 */
+
+#example14 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#example14 h1 {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+/* Example 15 */
+
+#example15 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example15 h1 {
+	font-family: 'Alegreya', serif;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+/* Example 16 */
+
+#example16 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16.5px;
+	line-height: 28px;
+}
+
+#example16 h1 {
+	font-family: 'Lustria', serif;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
